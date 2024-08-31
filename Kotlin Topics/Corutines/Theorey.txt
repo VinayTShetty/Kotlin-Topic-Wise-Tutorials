@@ -10,3 +10,10 @@ Like threads coroutines can
 1)Run in parallel
 2)wait for each other
 3)communicate with each other
+
+
+
+Difference between runblocking and GloabalScope.launch.
+
+runblocking{} :- Blocks the current thread in which it is running.
+GloabalScope.launch:- Will not block the current thread.

@@ -8,7 +8,7 @@ import kotlin.concurrent.thread
 fun main(args: Array<String>) {
    println("Main Program Starts Thread Name= ${Thread.currentThread().name} Thread Name= ${Thread.currentThread().id}")
    /**
-    * Creates a background Thread
+    * Creates a background Thread , the thread function is a lambda fucntion.
     */
    thread {
       println("Fake Work Started Thread Name= ${Thread.currentThread().name} Thread Name= ${Thread.currentThread().id}")

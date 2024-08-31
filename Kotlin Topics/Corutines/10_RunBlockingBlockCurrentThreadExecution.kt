@@ -17,4 +17,8 @@ fun main() {
 
 /**
  * runBlocking will block the current Thread execution,untill the coroutine is executed.
+   
+   runBlocking will create a new Coroutine.
+   This coroutine will block the current Thread , In which its operating.
+
  */
